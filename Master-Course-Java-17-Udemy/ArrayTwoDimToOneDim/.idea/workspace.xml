@@ -4,35 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c40d976d-03e9-4a3d-9efb-3a2e6b984053" name="Changes" comment="" />
+    <list default="true" id="3e8159db-0390-4b4f-aaee-9a0b5e773f3e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Linkedin/ListOfNumLinkedin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linkedin/ListOfNumLinkedin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2WHDDbNYNcARaM6Y8EbC3ZclwfX" />
+  <component name="ProjectId" id="2WS3mA7Ipg7D95ZRwyKFVOOwdrR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/cesar/Desktop/Trabajo/Ambientes/DEV/Microservicios/user-profile"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cesar/Desktop/Cesar/Cursos-Practico/Ejercicios/Java/Master-Course-Java-17-Udemy/ArrayTwoDimToOneDim&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c40d976d-03e9-4a3d-9efb-3a2e6b984053" name="Changes" comment="" />
-      <created>1696380494538</created>
+      <changelist id="3e8159db-0390-4b4f-aaee-9a0b5e773f3e" name="Changes" comment="" />
+      <created>1696712310694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1696380494538</updated>
+      <updated>1696712310694</updated>
     </task>
     <servers />
   </component>

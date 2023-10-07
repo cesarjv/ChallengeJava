@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ba6be0e-d2b3-42a8-9190-84f46af9785e" name="Changes" comment="" />
+    <list default="true" id="6d78ae02-ca95-40ec-8dba-d5e5bd171653" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="2WRNhFbwATnInqf5D5vMbAKsOeO" />
+  <component name="ProjectId" id="2WS5MrKLjqqqKdl5qBe9W1ovo2Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,11 +27,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ba6be0e-d2b3-42a8-9190-84f46af9785e" name="Changes" comment="" />
-      <created>1696691554091</created>
+      <changelist id="6d78ae02-ca95-40ec-8dba-d5e5bd171653" name="Changes" comment="" />
+      <created>1696713097205</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1696691554091</updated>
+      <updated>1696713097205</updated>
     </task>
     <servers />
   </component>
