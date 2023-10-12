@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e8159db-0390-4b4f-aaee-9a0b5e773f3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxValueOfList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaxValueOfList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxValueOfList/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MaxValueOfList/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ModiftFlowAndSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ModiftFlowAndSum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ModiftFlowAndSum/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ModiftFlowAndSum/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TotalImport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TotalImport/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TotalImport/target/classes/org/example/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TotalImport/target/classes/org/example/Product.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +28,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cesar/Desktop/Cesar/Cursos-Practico/Ejercicios/Java/Master-Course-Java-17-Udemy/ArrayTwoDimToOneDim&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cesar/Desktop/Trabajo/Ambientes/DEV/Microservicios/user-profile&quot;
   }
 }</component>
   <component name="RunManager">
