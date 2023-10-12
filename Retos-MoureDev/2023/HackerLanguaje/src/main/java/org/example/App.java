@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.*;
+import java.util.function.Consumer;
 
 /**
  /*
@@ -20,7 +21,9 @@ public class App
         Scanner teclado=new Scanner(System.in);
         String[] text=teclado.nextLine().toUpperCase().split("");
         List<String> textToList= new ArrayList<>(Arrays.asList(text));
-        textToList.stream().map(x -> getLeetTable().get(x)).forEach(System.out::println);
+        Consumer<List<String>> consumerInterface= x-> x.stream().map(a -> getLeetTable().get(a)).forEach(System.out::println);
+        consumerInterface.accept(textToList);
+
     }
     public static Map getLeetTable() {
         Map<String,String> map=new HashMap<>();
