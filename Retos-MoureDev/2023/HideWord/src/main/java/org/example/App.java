@@ -26,7 +26,7 @@ public class App
     public static void main( String[] args )
     {
         int randomWordPosition = new Random().nextInt(words.size());
-        Set<Integer> hs=uniqueValueToRemplace(words.get(randomWordPosition));
+        Set<Integer> hs=uniqueValuesToReplace(words.get(randomWordPosition));
         List<Integer> valueUnique=new ArrayList<>(hs);
         int attempts=new Random().nextInt(5)+1;
         String randomWord=words.get(randomWordPosition);
@@ -61,7 +61,7 @@ public class App
         };
     }
     private static final List<String> words= Arrays.asList("mouredev","java","colour","country","developer","devops","docker","javascript","quarkus","spring","hibernate");
-    private static Set<Integer> uniqueValueToRemplace(String word){
+    private static Set<Integer> uniqueValuesToReplace(String word){
 
         int sizeLettersToHide= (int) ((word.length())*0.60);
         int lettersToHide= new Random().nextInt(sizeLettersToHide -1)+1;
