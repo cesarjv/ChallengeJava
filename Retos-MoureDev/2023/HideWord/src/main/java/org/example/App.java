@@ -1,5 +1,7 @@
 package org.example;
 import java.util.*;
+import java.util.function.BiFunction;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
@@ -35,7 +37,7 @@ public class App
             if (attempts == 0) break;
             System.out.println("A continuacion se la indicara una palabra que debe adivinar, tiene "+attempts+" intentos posibles para acertar la palabra completa o alguno de sus caracteres: ");
             System.out.println("Palabra a adivinar: "+wordToAttempt);
-            System.out.println("Ingrese la palabra correcta: ");
+            System.out.println("Ingrese la palabra o caracter correcto: ");
             String userInput = sc.nextLine();
             if (!userInput.isEmpty()){
                 if (userInput.equals(randomWord)){
@@ -61,31 +63,24 @@ public class App
     private static final List<String> words= Arrays.asList("mouredev","java","colour","country","developer","devops","docker","javascript","quarkus","spring","hibernate");
     private static Set<Integer> uniqueValueToRemplace(String word){
 
-        int wordSize=word.length();
-        int sizeLettersToHide= (int) (wordSize*0.60);
-        int lettersToHide= new Random().nextInt(sizeLettersToHide);
-        while(lettersToHide ==0){
-            lettersToHide= new Random().nextInt(sizeLettersToHide);
-        }
+        int sizeLettersToHide= (int) ((word.length())*0.60);
+        int lettersToHide= new Random().nextInt(sizeLettersToHide -1)+1;
         HashSet hs=new HashSet();
         while(hs.size() <=lettersToHide){
-            int num= new Random().nextInt(wordSize);
+            int num= new Random().nextInt((word.length()));
             hs.add(num);
         }
         return hs;
     }
     private static String wordToGuess(String word,List<Integer> valueUniqueToRemplace){
-        List<String> wordToList=new ArrayList<>(Arrays.asList(word.split("")));
-        for (Integer integer : valueUniqueToRemplace) {
-            wordToList.set(integer, "_");
-        }
-        return wordToList.stream().map(String::valueOf).collect(Collectors.joining(""));
+        char[] chars = word.toCharArray();
+        valueUniqueToRemplace.forEach(i -> chars[i] = '_');
+        return String.valueOf(chars);
     }
 
     private static String searchMatches(String originalWord, String hideWord, String letter){
         List<String> originalWordToList=new ArrayList<>(Arrays.asList(originalWord.split("")));
         List<String> hideWordtoList=new ArrayList<>(Arrays.asList(hideWord.split("")));
-
         for(int x=0;x<originalWordToList.size();x++){
             if(hideWordtoList.get(x).equals("_") && originalWordToList.get(x).equals(letter)){
                 hideWordtoList.set(x,letter);
