@@ -87,6 +87,6 @@ public class App
                 break;
             }
         }
-        return hideWordtoList.stream().map(String::valueOf).collect(Collectors.joining(""));
+        return String.join("", hideWordtoList);
     }
 }
