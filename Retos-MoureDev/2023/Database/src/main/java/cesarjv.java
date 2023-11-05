@@ -1,7 +1,4 @@
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 /*
  * Realiza una conexión desde el lenguaje que hayas seleccionado a la siguiente base de datos MySQL:
@@ -20,7 +17,10 @@ import java.sql.Statement;
 public class cesarjv {
     public static void main(String[] args) {
 
-        try(Connection conn=ConnectionBD.getInstance();
+        /*try(Connection conn=ConnectionBD.getInstance();
+            Statement stmt=conn.createStatement();
+            ResultSet rs=stmt.executeQuery("SELECT * FROM challenges")) */
+        try(Connection conn=getInstance();
             Statement stmt=conn.createStatement();
             ResultSet rs=stmt.executeQuery("SELECT * FROM challenges")){
 
@@ -37,6 +37,14 @@ public class cesarjv {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
 
+    private static Connection getInstance() throws SQLException {
+        final String url="jdbc:mysql://mysql-5707.dinaserver.com:3306/moure_test?serverTimezone=America/Caracas";
+        final String username="mouredev_read";
+        final String password="mouredev_pass";
+        Connection connection = null;
+        connection = DriverManager.getConnection(url, username, password);
+        return connection;
     }
 }
