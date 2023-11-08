@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="430de3db-3483-448f-8b7d-e15fadf94436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cesarjv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cesarjv.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/cesar/OneDrive/Escritorio/Cesar/Cursos-Practico/Ejercicios/Java/Retos-MoureDev/2023/Database",
+    "last_opened_file_path": "C:/Users/cesar/OneDrive/Escritorio/Trabajo/Ambientes/DEV/Microservicios/find-customer-document-by-subscriber-Id",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +56,8 @@
       <workItem from="1699203328879" duration="87000" />
       <workItem from="1699211046951" duration="1607000" />
       <workItem from="1699212868737" duration="5000" />
-      <workItem from="1699212889146" duration="732000" />
+      <workItem from="1699212889146" duration="1481000" />
+      <workItem from="1699312466091" duration="40000" />
     </task>
     <servers />
   </component>
